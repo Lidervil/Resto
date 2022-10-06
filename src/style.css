@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #3E271F;
 }
 
 .content {
@@ -9,6 +10,7 @@ body {
 }
 
 .navbar {
+    background-color: #3E271F;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,9 +19,14 @@ body {
 
 .main {
     height: 85vh;
-    width: 90vw;
-    background-color: aquamarine;
+    width: 95vw;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #110803;
     align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -27,7 +34,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
-    color: white;
+    color: #9F683A;
     height: 5vh;
 }
 
@@ -35,10 +42,58 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 16px;
-    gap: 8px;
+    padding: 0 46px;
+    gap: 24px;
+}
+
+a {
+    color: #9F683A;
+    text-decoration: none;
 }
 
 .footer a {
-    color: white;
+    color: #9F683A;
+}
+
+.img {
+    background: url('./qui-nguyen-Zrp9b3PMIy8-unsplash.jpg');
+    background-size: cover;
+    width: 40vw;
+    height: 85vh;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.cta {
+    background-color: #9F683A;
+    border-radius: 10px;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    margin: auto;
+}
+
+.cta p, .cta h1 {
+    font-family: 'sans serif';
+    width: 30vw;
+}
+
+.cta h1 {
+    padding: 8px;
+    margin: 0;
+}
+
+.cta p {
+    font-size: 1.2rem;
+}
+
+.cta-btn {
+    border-radius: 5px;
+    border: none;
+    padding: 8px 16px;
+    background-color: #3E271F;
+    font-weight: 600;
+    color: #9F683A;
 }
