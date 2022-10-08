@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #3E271F;
+    font-family: Helvetica, sans-serif;
 }
 
 .content {
@@ -44,6 +45,7 @@ body {
     align-items: center;
     padding: 0 46px;
     gap: 24px;
+    font-weight: 600;
 }
 
 a {
@@ -76,7 +78,8 @@ a {
 }
 
 .cta p, .cta h1 {
-    font-family: 'sans serif';
+    color: #3E271F;
+    font-weight: 600;
     width: 30vw;
 }
 
