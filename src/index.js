@@ -1,7 +1,8 @@
-/* import './style.css';
+import './style.css';
 import { navbar, main, footer} from './layout';
 import cta from './home.js';
 import menu from './menu.js';
+import form from './contact.js';
 
 const content = document.getElementsByClassName('content')[0];
 
@@ -16,6 +17,7 @@ const linkthree = document.getElementsByClassName('linkthree')[0];
 
 linkone.addEventListener('click', () => homeFunction());
 linktwo.addEventListener('click', () => menuFunction());
+linkthree.addEventListener('click', () => contactFunction());
 
 function menuFunction() {
     wipe();
@@ -38,4 +40,12 @@ function wipe() {
     newMain.innerHTML = '';
 }
 
-homeFunction(); */
+function contactFunction() {
+    wipe();
+    const contact = document.createElement('div');
+    contact.classList.add('contact');
+    newMain.appendChild(contact);
+    newMain.appendChild(form());
+}
+
+homeFunction();
