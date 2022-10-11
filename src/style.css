@@ -160,3 +160,16 @@ a:hover {
     font-weight: 600;
     color: #9F683A;
 }
+
+.contact {
+    background: url(./Screenshot_4.png);
+    width: 40vw;
+    height: 75vh;
+    background-size: cover;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
